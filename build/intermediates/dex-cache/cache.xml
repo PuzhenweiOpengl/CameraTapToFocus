@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/avi/Documents/credence/LatentCamera/app/libs/CredenceDeviceLib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b5037c650ee60973a2e0a1f140aa304a73b57d68">
+        <dex dex="/home/avi/Documents/credence/LatentCamera/app/build/intermediates/pre-dexed/debug/CredenceDeviceLib_24203d89353e724e09eb01253027c1b7726d13ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/avi/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/home/avi/Documents/credence/LatentCamera/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_f3b0188348b9f42f4d18be25db1ac7e4672571fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/avi/Documents/credence/LatentCamera/app/libs/BiomorfFingerVerifier.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1453bd9a4d41105b485c24b7b4eeae540221738f">
+        <dex dex="/home/avi/Documents/credence/LatentCamera/app/build/intermediates/pre-dexed/debug/BiomorfFingerVerifier_1e3cdbb2dce9568552195906bad49114d04893f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/avi/Documents/credence/LatentCamera/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="/home/avi/Documents/credence/LatentCamera/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-18.0.0_05c83405e47f312f91fb77ef4215c6d2448dede8.jar" />
+    </item>
+
+</items>
