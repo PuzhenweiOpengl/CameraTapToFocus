@@ -1,4 +1,4 @@
-package com.credenceid.toptofocus;
+package com.credenceid.taptofocus;
 
 /**
  * Created by avi on 2/9/17.

@@ -11,7 +11,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.SurfaceView;
 
-import com.credenceid.toptofocus.CameraActivity;
+import com.credenceid.taptofocus.CameraActivity;
 
 public class CameraSurfaceView extends SurfaceView {
 
