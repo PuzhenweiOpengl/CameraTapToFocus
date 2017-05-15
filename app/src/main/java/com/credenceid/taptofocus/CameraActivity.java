@@ -128,8 +128,7 @@ public class CameraActivity extends Activity implements SurfaceHolder.Callback {
 
                 //if(CredenceOne Device)
                 //    camera.setDisplayOrientation(90);
-
-                camera.setDisplayOrientation(90);
+                camera.setDisplayOrientation(0);
 
                 camera.setPreviewDisplay(surfaceHolder);
                 camera.startPreview();
