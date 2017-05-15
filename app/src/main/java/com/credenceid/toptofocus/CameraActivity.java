@@ -1,4 +1,4 @@
-package com.credenceid.latentcamera;
+package com.credenceid.toptofocus;
 
 /**
  * Created by avi on 2/9/17.
@@ -31,7 +31,7 @@ public class CameraActivity extends Activity implements SurfaceHolder.Callback {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fingerprint_camera_page);
+        setContentView(R.layout.camera);
 
         getWindow().setFormat(PixelFormat.UNKNOWN);
 
@@ -126,7 +126,10 @@ public class CameraActivity extends Activity implements SurfaceHolder.Callback {
                     camera.setParameters(parameters);
                 }
 
-                camera.setDisplayOrientation(0);
+                //if(CredenceOne Device)
+                //    camera.setDisplayOrientation(90);
+
+                camera.setDisplayOrientation(90);
 
                 camera.setPreviewDisplay(surfaceHolder);
                 camera.startPreview();

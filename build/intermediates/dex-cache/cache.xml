@@ -21,6 +21,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/avi/Documents/credence/CameraTapToFocus/app/libs/BiomorfFingerVerifier.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1453bd9a4d41105b485c24b7b4eeae540221738f">
+        <dex dex="/home/avi/Documents/credence/CameraTapToFocus/app/build/intermediates/pre-dexed/debug/BiomorfFingerVerifier_d289af061fe9ba7490a20b95bdfe62c66b3cb994.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/avi/Documents/credence/CameraTapToFocus/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="/home/avi/Documents/credence/CameraTapToFocus/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-18.0.0_68c908dea217d08c9213af873811ac150f1aabec.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/avi/Documents/credence/LatentCamera/app/libs/BiomorfFingerVerifier.jar"
         jumboMode="false"
         optimize="true"
@@ -36,6 +54,15 @@
         revision="21.1.2"
         sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
         <dex dex="/home/avi/Documents/credence/LatentCamera/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-18.0.0_05c83405e47f312f91fb77ef4215c6d2448dede8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/avi/Documents/credence/CameraTapToFocus/app/libs/CredenceDeviceLib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b5037c650ee60973a2e0a1f140aa304a73b57d68">
+        <dex dex="/home/avi/Documents/credence/CameraTapToFocus/app/build/intermediates/pre-dexed/debug/CredenceDeviceLib_3225d610b13c0b2db3e51c87a43a293deb14d0f0.jar" />
     </item>
 
 </items>

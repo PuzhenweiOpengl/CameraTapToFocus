@@ -8,11 +8,10 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceView;
 
-import com.credenceid.latentcamera.CameraActivity;
+import com.credenceid.toptofocus.CameraActivity;
 
 public class CameraSurfaceView extends SurfaceView {
 
@@ -24,13 +23,15 @@ public class CameraSurfaceView extends SurfaceView {
         super(context, attrs, defStyle);
     }
 
-    private double mAspectRatio = 1280 / 720;
+    // For the Trident device use:      1280 / 720
+    // For the CredenceOne devices use: 800 / 480
+    private double ASPECT_RATIO = 1280 / 720;
 
     public void setAspectRatio(double ratio) {
         if (ratio <= 0.0)
             throw new IllegalArgumentException();
-        if (mAspectRatio != ratio) {
-            mAspectRatio = ratio;
+        if (ASPECT_RATIO != ratio) {
+            ASPECT_RATIO = ratio;
             requestLayout();
         }
     }
@@ -52,10 +53,17 @@ public class CameraSurfaceView extends SurfaceView {
         // Resize the preview frame with correct aspect ratio.
         previewWidth -= hPadding;
         previewHeight -= vPadding;
-        if (previewWidth > previewHeight * mAspectRatio)
-            previewWidth = (int) (previewHeight * mAspectRatio + .5);
-        else
-            previewHeight = (int) (previewWidth / mAspectRatio + .5);
+
+        {
+            // If using a CredenceOne device then use this
+            //previewHeight *= 0.83;
+
+            // If using a Trident then use this block
+            if (previewWidth > previewHeight * ASPECT_RATIO)
+                previewWidth = (int) (previewHeight * ASPECT_RATIO + .5);
+            else
+                previewHeight = (int) (previewWidth / ASPECT_RATIO + .5);
+        }
 
         // Add the padding of the border.
         previewWidth += hPadding;
